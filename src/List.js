@@ -34,7 +34,7 @@ function List({ item, deleteItem, id, qty, updateQty }) {
 	return (
 		<div>
 			<Flex mb={4}>
-				<Box w={256} px={4} bg="gray.100">
+				<Box w={[100,256]} px={4} bg="gray.100">
 					<Text fontSize="1.5em">{item}</Text>
 				</Box>
 				<Box backgroundColor="gray.50" m={2} px={4}>
